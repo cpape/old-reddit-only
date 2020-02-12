@@ -1,6 +1,10 @@
 
 * Use old.reddit.com.
 
-* https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension
+- Documentation at https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension
 
-* Test: about:debugging -> This Firefox -> Temporary Extensions
+- Test: about:debugging -> This Firefox -> Temporary Extensions
+
+- Deployment (using web-ext).
+  + web-ext build
+  + web-ext sign --api-key=<JWT issuer> --api-secret=<JWT secret>
