@@ -1,2 +1,2 @@
 
-document.body.style.border = "5px solid red";
+alert("OMG - WWW.reddit.com detected!");
