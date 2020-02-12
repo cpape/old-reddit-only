@@ -6,9 +6,6 @@
 
     "description": "",
 
-    "icons": {
-    },
-
     "content_scripts": [
         {
             "matches": ["*://www.reddit.com/*"],
